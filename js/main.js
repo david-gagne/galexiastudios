@@ -52,20 +52,20 @@ window.onload = function () {
 
     }
 
-    function dislayNextSections() {
-        let hero = document.querySelector('body > section');
-        let sectionTwo = document.getElementById('sectionTwo');
+    setTimeout(function() {
+        shrinkImage();
+    }, 7500);
 
-        // add bottom border
-        hero.style.borderBottom = '50px solid';
+    function dislayNextSections() {
+        let sectionTwo = document.getElementById('sectionTwo');
 
         // display section two
         sectionTwo.style.display = 'block';
     }
 
-
     setTimeout(function() {
-        shrinkImage();
         dislayNextSections();
-    }, 7500);
+    }, 8500);
+
+
 }

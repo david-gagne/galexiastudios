@@ -115,6 +115,7 @@ div.container.title-justified {
     transition-property: opacity, width;
     transition-duration: 6s, 1s;
     z-index: -1;
+    width: 40rem;
 }
 
 .is-500x500 {
@@ -150,20 +151,37 @@ div.container.title-justified {
 }
 
 #cta-button {
-    position: relative;
-    top: 0rem;
-    border: none;
-    background-color: inherit !important;
-    font-size: 1.5rem;
+    border-bottom: 1px solid;
 }
 
 .GalexiaShield {
-    width: 60% !important;
+    width: 20rem !important;
 }
 
 #founding-brief {
     position: relative;
     top: 2rem;
+}
+
+p#section-two-brief {
+    max-width: 23rem !important;
+    font-size: 1.2rem;
+}
+
+#contentTwo > h1 {
+    font-size: 4rem;
+}
+
+#section-two-column {
+    background-image: url('../img/section-two-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-property: height;
+    transition-duration: 3s;
+}
+
+.scroll-indicator {
+    
 }
 
 /* =========================================================== */
@@ -223,8 +241,20 @@ div.container.title-justified {
     #studio-brief {
         top: 9rem;
     }
+}
 
-    #cta-button {
-        top: 4rem;
+@media screen and (max-width: 422px) {
+    #section-two-title {
+        font-size: 1.5rem;
+    }
+
+    #GalexiaShield {
+        width: 14rem !important;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    #section-two-title {
+        font-size: 1.3rem;
     }
 }
