@@ -16,7 +16,7 @@
     <section id="landing-hero" class="hero is-black is-fullheight">
         <!-- Hero head: will stick at the top -->
         <div class="hero-head">
-            <header>
+            <header id="global-nav">
                 <div class="nav-left">
                     <div class="logo-container">
                         <!-- <a href="#" class="nav-logo">
@@ -82,18 +82,20 @@
 
         <!-- hero foot -->
         <div class="hero-foot">
-            <span class="scroll-indicator is-pulled-right">
-                ↓
-            </span>
+            <div id="scrollIndicator" class="container has-text-centered scroll-indicator">
+                <span>
+                    ↓
+                </span>
+            </div>
         </div>
     </section>
 
-    <section id="sectionTwo" class="hero is-white is-fullheight">
+    <section id="sectionTwo" class="hero is-e0 is-fullheight">
 
         <!-- Hero content: will be in the middle -->
         <div class="hero-body is-paddingless">
             <div class="container has-text-centered">
-                <div class="columns">
+                <div class="columns is-marginless">
                     <div id="section-two-column" class="column">
                     </div>
                     <div class="column">
@@ -106,13 +108,82 @@
                                     areas of professional photography. From nuptials and engagements to
                                     fashion and beauty, we craft only the best shots.
                                 </p>
+                                <p id="section-two-brief-pt-2" class="body-text">
+                                    With clients ranging from A-list celebrities to
+                                    niche photography studios, our founder has a proven history of
+                                    delivering stunning results.
+                                </p>
                             </figure>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
 
+    <section id="sectionThree" class="hero is-white is-fullheight">
+
+        <!-- Hero content: will be in the middle -->
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="content has-text-centered">
+                    <h3 class="title is-3">
+                        Selected pieces
+                    </h3>
+                </div>
+                <div class="columns">
+                    <div class="column has-text-right">
+                        <a href="#"></a>
+
+                        <figure class="image">
+                            <a href="#">
+                                <img id="fashion-selection" src="img/fashion-selection.png" alt="Selected fashion • Galexia Studios | Milad Rezaei">
+                            </a>
+                            <a href="#">
+                                <p class="title has-text-right is-marginless">
+                                    Fashion
+                                </p>
+                                <span class="has-text-right body-text is-block">
+                                    Photography series
+                                </span>
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="column has-text-left">
+                        <figure class="image fit-content">
+                            <a href="#">
+                                <img id="wedding-selection" src="img/wedding-selection.png" alt="Selected wedding • Galexia Studios | Milad Rezaei">
+                            </a>
+                            <a href="#">
+                                <p class="title has-text-right is-marginless">
+                                    Wedding
+                                </p>
+                                <span class="body-text is-block has-text-right">
+                                    Photography series
+                                </span>
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- hero foot -->
+        <div class="hero-foot">
+            <div class="container has-text-centered">
+                <div id="cta-two" class="content">
+                    <p class="body-text">
+                        We work with <a class="has-text-link" href="#">wedding & engagement</a>
+                        as well as <a class="has-text-link" href="#">fashion & beauty</a> photography.
+                    </p>
+                </div>
+                <p class="title is-5">
+                    <a id="cta-link" href="#">
+                        See our work
+                    </a>
+                </p>
+            </div>
+        </div>
     </section>
 
     <script src="js/main.js"></script>

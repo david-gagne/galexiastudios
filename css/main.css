@@ -71,7 +71,7 @@ div.container.title-justified {
     justify-content: center;
 }
 
-.half-margin { 
+.half-margin {
     margin-bottom: 0.5rem !important;
 }
 
@@ -100,7 +100,7 @@ div.container.title-justified {
 #landing-hero {
     transition-property: background-color, border-bottom;
     transition-duration: 1s;
-} 
+}
 
 #contentOne {
     display: none;
@@ -131,23 +131,11 @@ div.container.title-justified {
     font-size: 1.3rem;
     left: 0;
     top: 3rem;
-    width: 40vw;
+    width: 43vw;
 }
 
 #sectionTwo {
     display: none;
-}
-
-#weddingEngagement {
-    height: fit-content;
-    position: absolute;
-    width: 104%;
-    top: -84vh;
-    left: 20vw;
-}
-
-#weddingEngagementImage {
-    opacity: 0.2;
 }
 
 #cta-button {
@@ -163,12 +151,17 @@ div.container.title-justified {
     top: 2rem;
 }
 
-p#section-two-brief {
+#section-two-brief {
     max-width: 23rem !important;
     font-size: 1.2rem;
 }
 
-#contentTwo > h1 {
+#section-two-brief-pt-2 {
+    max-width: 23rem !important;
+    font-size: 1.2rem;
+}
+
+#contentTwo>h1 {
     font-size: 4rem;
 }
 
@@ -177,11 +170,61 @@ p#section-two-brief {
     background-repeat: no-repeat;
     background-size: cover;
     transition-property: height;
-    transition-duration: 3s;
+    transition-duration: 4s;
+    background-color: #E0E0E0;
+    background-blend-mode: multiply;
+    height: 0;
 }
 
-.scroll-indicator {
-    
+.is-e0 {
+    background-color: #E0E0E0;
+}
+
+#scrollIndicator {
+    display: none;
+}
+
+#scrollIndicator>span {
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+#sectionThree {
+    display: none;
+    padding-top: 4rem;
+}
+
+#fashion-selection {
+    display: inline;
+    width: 21rem;
+}
+
+#wedding-selection {
+    display: inline;
+    width: 16rem;
+}
+
+.is-block {
+    display: block;
+}
+
+#global-nav {
+    background: transparent;
+    position: fixed;
+    z-index: 3;
+}
+
+.fit-content {
+    width: fit-content;
+}
+
+#cta-two {
+    padding: 2.1rem;
+}
+
+#cta-link {
+    position: relative;
+    top: -3rem;
 }
 
 /* =========================================================== */
@@ -189,6 +232,12 @@ p#section-two-brief {
 /* =========================================================== */
 
 /* Tablet and larger */
+@media screen and (max-width: 1179px) {
+    #studio-brief {
+        width: 60vw;
+    }
+}
+
 @media screen and (min-width: 581px) {
     ul.top-navigation {
         display: inline-block;
@@ -256,5 +305,11 @@ p#section-two-brief {
 @media screen and (max-width: 345px) {
     #section-two-title {
         font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #section-two-column {
+        display: none;
     }
 }

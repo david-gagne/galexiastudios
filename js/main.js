@@ -58,14 +58,36 @@ window.onload = function () {
 
     function dislayNextSections() {
         let sectionTwo = document.getElementById('sectionTwo');
+        let sectionThree = document.getElementById('sectionThree');
+        let scrollIndicator = document.getElementById('scrollIndicator');
 
         // display section two
         sectionTwo.style.display = 'block';
+
+        // display section three
+        sectionThree.style.display = 'block';
+
+        // display scroll indicator 
+        scrollIndicator.style.display = 'block';
     }
 
     setTimeout(function() {
         dislayNextSections();
     }, 8500);
 
+    function revealSectionTwoImage() {
+        let sectionTwoImage = document.getElementById('section-two-column');
+
+        // track window position
+        setInterval(function() {
+            if (window.scrollY > 629) {
+                sectionTwoImage.style.height = '100vh';
+            }
+        });
+    }
+
+    setTimeout(function() {
+        revealSectionTwoImage();
+    }, 8500);
 
 }
