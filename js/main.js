@@ -1,8 +1,5 @@
 window.onload = function () {
-
-    let sectionTwoColumnImage = 'https://grindfusion-cdn.sirv.com/Images/Milad%20Rezaei/Galexia%20Studios/section-two-bg.png'
-    sectionTwoColumnImage.onload = revealSectionTwoImage();
-
+    
     function changeBackgroundColor() {
         let hero = document.querySelector('body > section');
         // change background color to white.
