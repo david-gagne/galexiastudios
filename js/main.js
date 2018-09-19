@@ -77,7 +77,7 @@ window.onload = function () {
 
         // track window position
         setInterval(function() {
-            if (window.scrollY > 789) {
+            if (window.scrollY > 759) {
                 sectionTwoImage.style.height = '100vh';
             }
         });
