@@ -4,8 +4,12 @@
 }
 
 header {
-    height: 52px;
+    height: 60px;
     width: 100%;
+}
+
+.hero-head {
+    height: 4rem;
 }
 
 .title {
@@ -30,9 +34,9 @@ div.nav-right {
 }
 
 .navigation-logo {
-    width: 8rem !important;
+    width: 113px !important;
     position: relative;
-    top: 1rem;
+    top: 0;
 }
 
 /* Remove all font styles when using image on logo element */
@@ -226,6 +230,11 @@ div.container.title-justified {
     position: relative;
     top: -3rem;
 }
+
+.has-padding-bottom {
+    padding-bottom: 6rem;
+}
+
 
 /* =========================================================== */
 /* MEDIA QUERIES */
