@@ -59,16 +59,13 @@ window.onload = function () {
     function dislayNextSections() {
         let sectionTwo = document.getElementById('sectionTwo');
         let sectionThree = document.getElementById('sectionThree');
-        let scrollIndicator = document.getElementById('scrollIndicator');
 
         // display section two
         sectionTwo.style.display = 'block';
 
         // display section three
         sectionThree.style.display = 'block';
-
-        // display scroll indicator 
-        scrollIndicator.style.display = 'block';
+        
     }
 
     setTimeout(function() {
