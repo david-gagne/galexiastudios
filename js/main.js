@@ -65,7 +65,7 @@ window.onload = function () {
 
         // display section three
         sectionThree.style.display = 'block';
-        
+
     }
 
     setTimeout(function() {
@@ -77,7 +77,7 @@ window.onload = function () {
 
         // track window position
         setInterval(function() {
-            if (window.scrollY > 629) {
+            if (sectionTwoImage.onload && window.scrollY > 629) {
                 sectionTwoImage.style.height = '100vh';
             }
         });
