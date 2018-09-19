@@ -170,7 +170,7 @@ div.container.title-justified {
 }
 
 #section-two-column {
-    background-image: url('../img/section-two-bg.png');
+    background-image: url('https://grindfusion-cdn.sirv.com/Images/Milad%20Rezaei/Galexia%20Studios/studio-brief-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     transition-property: height;
