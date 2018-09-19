@@ -1,5 +1,5 @@
 window.onload = function () {
-    
+
     function changeBackgroundColor() {
         let hero = document.querySelector('body > section');
         // change background color to white.
@@ -77,7 +77,7 @@ window.onload = function () {
 
         // track window position
         setInterval(function() {
-            if (window.scrollY > 759) {
+            if (window.scrollY > 669) {
                 sectionTwoImage.style.height = '100vh';
             }
         });
