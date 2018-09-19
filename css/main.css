@@ -235,6 +235,10 @@ div.container.title-justified {
     padding-bottom: 6rem;
 }
 
+.is-paddingless-top {
+    padding-top: 0;
+}
+
 
 /* =========================================================== */
 /* MEDIA QUERIES */
